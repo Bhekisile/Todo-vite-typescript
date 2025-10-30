@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import { Input } from "@/components/ui/input";
 import {
   Select,
@@ -10,7 +10,7 @@ import {
 import { format } from "date-fns";
 import { Calendar as CalendarIcon } from "lucide-react";
 
-import { cn } from "@/lib/utils";
+// import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { Calendar } from "@/components/ui/calendar";
 import {
@@ -22,10 +22,10 @@ import { Textarea } from "@/components/ui/textarea";
 import {
   Form,
   FormControl,
-  FormDescription,
+  // FormDescription,
   FormField,
   FormItem,
-  FormLabel,
+  // FormLabel,
   FormMessage,
 } from "@/components/ui/form";
 import { zodResolver } from "@hookform/resolvers/zod"
@@ -39,7 +39,7 @@ import { toast } from "sonner";
 import { useQueryClient } from "@tanstack/react-query";
 
 export const CreateTaskForm = () => {
-  const [date, setDate] = useState<Date>()
+  // const [date, setDate] = useState<Date>()
 
   const form = useForm<z.infer<typeof createTaskSchema>>({
     resolver: zodResolver(createTaskSchema),
@@ -48,7 +48,7 @@ export const CreateTaskForm = () => {
       priority: "medium",
     },
   });
-  const { mutate, isSuccess, isError, isPending } = useCreateTask();
+  const { mutate, isSuccess } = useCreateTask();
   const queryClient = useQueryClient();
 
   function onSubmit(values: z.infer<typeof createTaskSchema>) {
