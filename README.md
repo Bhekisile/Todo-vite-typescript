@@ -68,12 +68,12 @@ npm install
 
 Clone or fork this repository to your desired folder:
 
--git clone https://github.com/Bhekisile/.git
+-git clone https://github.com/Bhekisile/Todo-vite-typescript/.git
 
 ### Usage
 
 To run the project, run: 
-npm start
+npm run dev
 
 
 ### Deployment
