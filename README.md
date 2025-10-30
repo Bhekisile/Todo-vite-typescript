@@ -48,7 +48,7 @@ Todo is a full-stack project demonstrating the use of TypeScript with ReactJS, S
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://)
+- [Live Demo Link](https://todo-vite-typescript.vercel.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
