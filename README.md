@@ -24,23 +24,36 @@
 # 📖 [Todo Typescript] <a name="about-project"></a>
 
 
-Todo is a full-stack project demonstrating the use of TypeScript with ReactJS, ShadcnUI, Node.js, Express and MongoDB. From setting up TypeScript, instantiate a tsconfig.js file to advance use of TypeScript. In this course we touched everything about TypeScript, which includes interfaces, type aliases, enums, generics, tuples, abstract classes, access modifiers, type assertions, decorators, utility types, and dependency injection frameworks. We use a library called ZOD to validate the form and Tailwind for style.
+A production-ready full-stack web application built with TypeScript on both the frontend and backend. This project demonstrates clean architecture, strong type safety, and modern best practices for building scalable web applications.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
+## Frontend
 - **[Vite & React]**
-- **[Tailwind]**
-- **[ShadcnUI]**
 - **[TypeScript]**
+- **[ShadcnUI]**
+- **[Tailwind CSS]**
+- **[TanStack Query (server-state management)]**
+- **[Zod (form & schema validation)]**
+
+## Backend
+- **[Node.js]**
+- **[Express]**
+- **[TypeScript]**
+- **[MongoDB]**
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **[Layout and ShadcnUI]**
-- **[TypeScript Integration with React]**
-- **[Creating a task]**
+- **[End-to-end TypeScript implementation (frontend & backend)]**
+- **[Typed REST APIs with consistent data contracts]**
+- **[Server-state management using TanStack Query]**
+- **[Robust form validation with Zod]**
+- **[Responsive and accessible UI using Tailwind CSS and Shadcn UI]**
+- **[Clean, scalable project structure]**
+- **[Separation of concerns between UI, business logic, and data layers]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -60,9 +73,8 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need: 
-Live Server
-npm install
+- Node.js (v18+ recommended)
+- MongoDB (local or cloud instance)
 
 ### Setup
 
